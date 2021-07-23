@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.exercise2.TC005_RadioBtnSelection"/>
+      <class name="test.exercise1.TC003_VerifyLoginWithWrongEmail"/>
+      <class name="test.exercise1.TC002_VerifyLoginWithInvalidEmail"/>
+      <class name="test.exercise1.TC004_VerifyHomepage"/>
+      <class name="test.exercise1.TC001_VerifySuccessfulLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
